@@ -1,0 +1,113 @@
+body
+{
+    background-color: rgb(243, 243, 48);
+}
+
+h2{
+	text-align: center;
+}
+
+.container-1
+{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+    gap:5px;
+    margin-left: 550px; 
+}
+
+.box
+{
+    border: 2px solid black;
+    height: 150px;
+    background-color: rgba(0, 109, 0, 0.678);
+    border-color: rgba(0, 109, 0, 0.678);
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box1
+{
+	transition: width 2.5s;
+    transition-timing-function: linear;
+}
+
+.box1:hover
+{
+	width: 400px;
+}
+
+.box2
+{
+	transition: width 2s, height 2s ;
+    transition-timing-function: linear;
+}
+
+.box2:hover
+{
+	width: 250px;
+	height: 250px;
+}
+
+.box3
+{
+	transition: width 2s;
+    transition-timing-function:ease-in;
+   
+}
+
+.box3:hover
+{
+	width: 500px;
+}
+
+.box4
+{
+	transition: width 2s;
+    transition-timing-function:ease-out;
+}
+
+.box4:hover
+{
+	width: 400px;
+}
+
+.box5
+{
+	transition: width 2s;
+    transition-timing-function:ease-in;
+}
+
+.box5:hover
+{
+	width: 400px;
+}
+
+.box6
+{
+	transition: width 2s;
+    transition-timing-function:ease-in;
+}
+
+.box6:hover
+{
+	width: 400px;
+}
+
+.box7
+{
+	transition: width 2s;
+    transition-timing-function:ease-in-out;
+}
+
+.box7:hover
+{
+	width: 400px;
+}
+
+a{
+   margin-left: 90px;
+   font-size: 25px;
+}
